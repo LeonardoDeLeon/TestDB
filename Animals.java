@@ -1,15 +1,15 @@
 public class Animals {
     public int animalId;
     public String name;
-    public int legs;
     public int age;
+    public int legs;
 
 
-    public Animals (int animalId, String name, int legs, int age) {
+    public Animals (int animalId, String name, int age, int legs) {
         this.animalId = animalId;
         this.name = name;
-        this.legs = legs;
         this.age = age;
+        this.legs = legs;
     }
 
     public int getAnimalId() {

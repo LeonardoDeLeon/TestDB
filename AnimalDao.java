@@ -32,11 +32,11 @@ public class AnimalDao {
 			
 			while (rs.next()) {
 				int id = rs.getInt("id");
-				String name = rs.getString("name");
-				int legs = rs.getInt("legs");
+				String name = rs.getString("name");				
 				int age = rs.getInt("age");
+				int legs = rs.getInt("legs");
 				
-				a = new Animals(id, name, legs, age);
+				a = new Animals(id, name, age, legs);
 				aList.add(a);
 			}
 			
